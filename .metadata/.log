@@ -389,3 +389,95 @@ java.lang.AssertionError: WSDL port operation namespace for activity 'InvokeStar
 
 !ENTRY com.tibco.xpd.resources 1 0 2019-11-28 22:33:26.298
 !MESSAGE Derby database closed.
+!SESSION 2019-11-28 22:35:17.156 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_202
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_AU
+Framework arguments:  -showlocation
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -showlocation
+
+!ENTRY org.eclipse.ui 2 0 2019-11-28 22:35:24.948
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2019-11-28 22:35:24.948
+!MESSAGE Commands should really have a category: plug-in='com.tibco.xpd.openspacegwtgadget.integration', id='com.tibco.xpd.openspacegwtgadget.integration.openspaceGadgetDevDropDownButtonCmd', categoryId='com.tibco.xpd.openspacegwtgadget.integration.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2019-11-28 22:35:25.320
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2019-11-28 22:35:25.320
+!MESSAGE Commands should really have a category: plug-in='com.tibco.xpd.openspacegwtgadget.integration', id='com.tibco.xpd.openspacegwtgadget.integration.openspaceGadgetDevDropDownButtonCmd', categoryId='com.tibco.xpd.openspacegwtgadget.integration.commandCategory'
+
+!ENTRY org.eclipse.jface 2 0 2019-11-28 22:35:26.474
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-11-28 22:35:26.474
+!MESSAGE A conflict occurred for ALT+SHIFT+X M:
+Binding(ALT+SHIFT+X M,
+	ParameterizedCommand(Command(org.eclipse.m2e.core.pomFileAction.run,Run Maven Build,
+		Run Maven Build,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@404a7c61,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+X M,
+	ParameterizedCommand(Command(com.tibco.xpd.simulation.ui.SimulationShortcut.run,Run Simulation,
+		Run Simulation,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@428e875f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.datatools.connectivity 4 10001 2019-11-28 22:35:33.767
+!MESSAGE C:\DevelopBS-git-test1\BusinessStudio430ahf0bshf0-20190910b\.metadata\.plugins\org.eclipse.birt.report.data.oda.jdbc.dbprofile.sampledb\db\META-INF\MANIFEST.MF (The system cannot find the path specified)
+!STACK 1
+org.eclipse.core.runtime.CoreException: C:\DevelopBS-git-test1\BusinessStudio430ahf0bshf0-20190910b\.metadata\.plugins\org.eclipse.birt.report.data.oda.jdbc.dbprofile.sampledb\db\META-INF\MANIFEST.MF (The system cannot find the path specified)
+	at org.eclipse.birt.report.data.oda.jdbc.dbprofile.sampledb.internal.impl.SampleDbFactory.setInitializationData(SampleDbFactory.java:104)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:251)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at org.eclipse.datatools.connectivity.internal.InternalProfileManager.initializeLocalDatabase(InternalProfileManager.java:1380)
+	at org.eclipse.datatools.connectivity.internal.InternalProfileManager.loadLocalRegisteredDatabases(InternalProfileManager.java:1360)
+	at org.eclipse.datatools.connectivity.internal.InternalProfileManager.loadProfiles(InternalProfileManager.java:1070)
+	at org.eclipse.datatools.connectivity.internal.InternalProfileManager.getProfiles(InternalProfileManager.java:150)
+	at org.eclipse.datatools.connectivity.ProfileManager.getProfiles(ProfileManager.java:48)
+	at org.eclipse.datatools.sqltools.core.profile.ProfileUtil.getProfiles(ProfileUtil.java:1023)
+	at org.eclipse.datatools.sqltools.core.EditorCorePlugin.register(EditorCorePlugin.java:72)
+	at org.eclipse.datatools.sqltools.core.EditorCorePlugin.access$0(EditorCorePlugin.java:68)
+	at org.eclipse.datatools.sqltools.core.EditorCorePlugin$1.configurationLoaded(EditorCorePlugin.java:61)
+	at org.eclipse.datatools.sqltools.internal.core.SQLDevToolsConfigRegistryImpl$2.run(SQLDevToolsConfigRegistryImpl.java:235)
+Caused by: java.io.FileNotFoundException: C:\DevelopBS-git-test1\BusinessStudio430ahf0bshf0-20190910b\.metadata\.plugins\org.eclipse.birt.report.data.oda.jdbc.dbprofile.sampledb\db\META-INF\MANIFEST.MF (The system cannot find the path specified)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162)
+	at org.eclipse.birt.report.data.oda.jdbc.dbprofile.sampledb.internal.impl.SampleDbFactory.initSampleDb(SampleDbFactory.java:187)
+	at org.eclipse.birt.report.data.oda.jdbc.dbprofile.sampledb.internal.impl.SampleDbFactory.setInitializationData(SampleDbFactory.java:88)
+	... 12 more
+!SUBENTRY 1 org.eclipse.birt.report.data.oda.jdbc.dbprofile.sampledb 4 0 2019-11-28 22:35:33.768
+!MESSAGE C:\DevelopBS-git-test1\BusinessStudio430ahf0bshf0-20190910b\.metadata\.plugins\org.eclipse.birt.report.data.oda.jdbc.dbprofile.sampledb\db\META-INF\MANIFEST.MF (The system cannot find the path specified)
+!STACK 0
+java.io.FileNotFoundException: C:\DevelopBS-git-test1\BusinessStudio430ahf0bshf0-20190910b\.metadata\.plugins\org.eclipse.birt.report.data.oda.jdbc.dbprofile.sampledb\db\META-INF\MANIFEST.MF (The system cannot find the path specified)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162)
+	at org.eclipse.birt.report.data.oda.jdbc.dbprofile.sampledb.internal.impl.SampleDbFactory.initSampleDb(SampleDbFactory.java:187)
+	at org.eclipse.birt.report.data.oda.jdbc.dbprofile.sampledb.internal.impl.SampleDbFactory.setInitializationData(SampleDbFactory.java:88)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:251)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at org.eclipse.datatools.connectivity.internal.InternalProfileManager.initializeLocalDatabase(InternalProfileManager.java:1380)
+	at org.eclipse.datatools.connectivity.internal.InternalProfileManager.loadLocalRegisteredDatabases(InternalProfileManager.java:1360)
+	at org.eclipse.datatools.connectivity.internal.InternalProfileManager.loadProfiles(InternalProfileManager.java:1070)
+	at org.eclipse.datatools.connectivity.internal.InternalProfileManager.getProfiles(InternalProfileManager.java:150)
+	at org.eclipse.datatools.connectivity.ProfileManager.getProfiles(ProfileManager.java:48)
+	at org.eclipse.datatools.sqltools.core.profile.ProfileUtil.getProfiles(ProfileUtil.java:1023)
+	at org.eclipse.datatools.sqltools.core.EditorCorePlugin.register(EditorCorePlugin.java:72)
+	at org.eclipse.datatools.sqltools.core.EditorCorePlugin.access$0(EditorCorePlugin.java:68)
+	at org.eclipse.datatools.sqltools.core.EditorCorePlugin$1.configurationLoaded(EditorCorePlugin.java:61)
+	at org.eclipse.datatools.sqltools.internal.core.SQLDevToolsConfigRegistryImpl$2.run(SQLDevToolsConfigRegistryImpl.java:235)
+
+!ENTRY org.eclipse.bpel.validator 1 0 2019-11-28 22:35:42.756
+!MESSAGE Validator Startup 24ms
+
+!ENTRY com.tibco.xpd.resources 1 0 2019-11-28 22:35:57.650
+!MESSAGE Derby database closed.
