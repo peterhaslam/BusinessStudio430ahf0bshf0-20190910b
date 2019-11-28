@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<channels:Channels xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:channels="http://www.tibco.com/xpd/presentation/channels/1.0" xmi:id="_3w-y0BHMEeqsNZeLl2-Hpw">
-  <channels xmi:id="_3w_Z4BHMEeqsNZeLl2-Hpw" name="DefaultChannel" displayName="Default Channel" default="true">
-    <typeAssociations xmi:id="_3w_Z4RHMEeqsNZeLl2-Hpw">
+<channels:Channels xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:channels="http://www.tibco.com/xpd/presentation/channels/1.0" xmi:id="_QklSgBHREeq_ms2dSFmUYA">
+  <channels xmi:id="_QklSgRHREeq_ms2dSFmUYA" name="DefaultChannel" displayName="Default Channel" default="true">
+    <typeAssociations xmi:id="_QklSghHREeq_ms2dSFmUYA">
       <channelType href="xpdextension:channelTypes#GIGWTPull"/>
     </typeAssociations>
-    <typeAssociations xmi:id="_3w_Z4hHMEeqsNZeLl2-Hpw">
+    <typeAssociations xmi:id="_QklSgxHREeq_ms2dSFmUYA">
       <channelType href="xpdextension:channelTypes#openspaceGWTPull"/>
     </typeAssociations>
-    <typeAssociations xmi:id="_3w_Z4xHMEeqsNZeLl2-Hpw">
+    <typeAssociations xmi:id="_QklShBHREeq_ms2dSFmUYA">
       <channelType href="xpdextension:channelTypes#openspaceEmailPush"/>
     </typeAssociations>
   </channels>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xpdl2:Package xmlns:database="http://www.tibco.com/XPD/database1.0.0" xmlns:eaijava="http://www.tibco.com/XPD/EAIJava1.0.0" xmlns:email="http://www.tibco.com/XPD/email1.0.0" xmlns:iProcessExt="http://www.tibco.com/XPD/iProcessExt1.0.0" xmlns:simulation="http://www.tibco.com/xpd/Simulation1.0.1" xmlns:xpdExt="http://www.tibco.com/XPD/xpdExtension1.0.0" xmlns:xpdl2="http://www.wfmc.org/2008/XPDL2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Id="_vbkAABHMEeqsNZeLl2-Hpw" Name="SendAndReceive">
+<xpdl2:Package xmlns:database="http://www.tibco.com/XPD/database1.0.0" xmlns:eaijava="http://www.tibco.com/XPD/EAIJava1.0.0" xmlns:email="http://www.tibco.com/XPD/email1.0.0" xmlns:iProcessExt="http://www.tibco.com/XPD/iProcessExt1.0.0" xmlns:simulation="http://www.tibco.com/xpd/Simulation1.0.1" xmlns:xpdExt="http://www.tibco.com/XPD/xpdExtension1.0.0" xmlns:xpdl2="http://www.wfmc.org/2008/XPDL2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Id="_IzYnEBHREeq_ms2dSFmUYA" Name="SendAndReceive">
   <xpdl2:PackageHeader>
     <xpdl2:XPDLVersion>2.1</xpdl2:XPDLVersion>
     <xpdl2:Description>Add your own diagram fragments using &lt;Ctrl>+Drag from diagram editor or Copy fragment in editor and Paste here.</xpdl2:Description>

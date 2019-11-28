@@ -1,4 +1,4 @@
-!SESSION 2019-11-28 21:49:01.611 -----------------------------------------------
+!SESSION 2019-11-28 22:20:24.215 -----------------------------------------------
 eclipse.buildId=unknown
 java.version=1.8.0_202
 java.vendor=Oracle Corporation
@@ -6,25 +6,25 @@ BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_AU
 Framework arguments:  -showlocation
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -showlocation
 
-!ENTRY org.eclipse.ui 2 0 2019-11-28 21:49:06.140
+!ENTRY org.eclipse.ui 2 0 2019-11-28 22:20:30.255
 !MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
-!SUBENTRY 1 org.eclipse.ui 2 0 2019-11-28 21:49:06.140
+!SUBENTRY 1 org.eclipse.ui 2 0 2019-11-28 22:20:30.255
 !MESSAGE Commands should really have a category: plug-in='com.tibco.xpd.openspacegwtgadget.integration', id='com.tibco.xpd.openspacegwtgadget.integration.openspaceGadgetDevDropDownButtonCmd', categoryId='com.tibco.xpd.openspacegwtgadget.integration.commandCategory'
 
-!ENTRY org.eclipse.ui 2 0 2019-11-28 21:49:06.547
+!ENTRY org.eclipse.ui 2 0 2019-11-28 22:20:30.701
 !MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
-!SUBENTRY 1 org.eclipse.ui 2 0 2019-11-28 21:49:06.547
+!SUBENTRY 1 org.eclipse.ui 2 0 2019-11-28 22:20:30.702
 !MESSAGE Commands should really have a category: plug-in='com.tibco.xpd.openspacegwtgadget.integration', id='com.tibco.xpd.openspacegwtgadget.integration.openspaceGadgetDevDropDownButtonCmd', categoryId='com.tibco.xpd.openspacegwtgadget.integration.commandCategory'
 
-!ENTRY org.eclipse.jface 2 0 2019-11-28 21:49:08.054
+!ENTRY org.eclipse.jface 2 0 2019-11-28 22:20:32.169
 !MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
-!SUBENTRY 1 org.eclipse.jface 2 0 2019-11-28 21:49:08.055
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-11-28 22:20:32.169
 !MESSAGE A conflict occurred for ALT+SHIFT+X M:
 Binding(ALT+SHIFT+X M,
 	ParameterizedCommand(Command(org.eclipse.m2e.core.pomFileAction.run,Run Maven Build,
 		Run Maven Build,
 		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@109db924,
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@689504b1,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
@@ -32,126 +32,79 @@ Binding(ALT+SHIFT+X M,
 	ParameterizedCommand(Command(com.tibco.xpd.simulation.ui.SimulationShortcut.run,Run Simulation,
 		Run Simulation,
 		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1ec8afc4,
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@bf2f2ce,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
 
-!ENTRY org.eclipse.emf.validation 2 70 2019-11-28 21:49:18.938
+!ENTRY org.eclipse.emf.validation 2 70 2019-11-28 22:20:45.966
 !MESSAGE Constraint "com.tibco.amf.binding.common.design.ui.com.tibco.amx.bt.jmsbt.design.reference.bothPoliciesAddedForSOAP" could not find target EMF type "SOAPBinding."
 
-!ENTRY org.eclipse.emf.validation 2 70 2019-11-28 21:49:18.939
+!ENTRY org.eclipse.emf.validation 2 70 2019-11-28 22:20:45.968
 !MESSAGE Constraint "com.tibco.amf.binding.common.design.ui.com.tibco.amx.bt.jmsbt.design.reference.jmsALOwithVirtualizationOrSecureVirtualizatioPoliciesAddedForSOAP" could not find target EMF type "SOAPBinding."
 
-!ENTRY org.eclipse.emf.validation 2 70 2019-11-28 21:49:18.941
+!ENTRY org.eclipse.emf.validation 2 70 2019-11-28 22:20:45.970
 !MESSAGE Constraint "com.tibco.amf.binding.common.design.ui.com.tibco.amx.bt.jmsbt.design.reference.txnotapplicabletosoaphttp" could not find target EMF type "SOAPBinding."
 
-!ENTRY org.eclipse.emf.validation 2 70 2019-11-28 21:49:18.942
+!ENTRY org.eclipse.emf.validation 2 70 2019-11-28 22:20:45.971
 !MESSAGE Constraint "com.tibco.amf.binding.common.design.ui.com.tibco.amx.bt.jmsbt.design.reference.alonotapplicabletosoaphttp" could not find target EMF type "SOAPBinding."
 
-!ENTRY org.eclipse.emf.validation 2 70 2019-11-28 21:49:18.943
+!ENTRY org.eclipse.emf.validation 2 70 2019-11-28 22:20:45.971
 !MESSAGE Constraint "com.tibco.amf.binding.common.design.ui.com.tibco.amx.bt.jmsbt.design.reference.bothPoliciesAddedJMSALOForSOAP" could not find target EMF type "SOAPBinding."
 
-!ENTRY org.eclipse.emf.validation 2 70 2019-11-28 21:49:19.240
+!ENTRY org.eclipse.emf.validation 2 70 2019-11-28 22:20:46.710
 !MESSAGE Constraint "com.tibco.amf.binding.soap.ui.WSRMNeedsWSAddressingConstraint" could not find target EMF type "org.eclipse.emf.ecore.EObject."
 
-!ENTRY org.eclipse.emf.validation 2 70 2019-11-28 21:49:19.241
+!ENTRY org.eclipse.emf.validation 2 70 2019-11-28 22:20:46.712
 !MESSAGE Constraint "com.tibco.amf.binding.soap.ui.WSRMNeedsWSAddressingNonAnonymousConstraint" could not find target EMF type "org.eclipse.emf.ecore.EObject."
 
-!ENTRY org.eclipse.emf.validation 2 70 2019-11-28 21:49:19.292
+!ENTRY org.eclipse.emf.validation 2 70 2019-11-28 22:20:46.879
 !MESSAGE Constraint "com.tibco.amf.design.implementationtype.webapp.featureNotConfiguredConstraint" could not find target EMF type "Component."
 
-!ENTRY org.eclipse.emf.validation 2 70 2019-11-28 21:49:19.301
+!ENTRY org.eclipse.emf.validation 2 70 2019-11-28 22:20:46.889
 !MESSAGE Constraint "com.tibco.amf.design.sr.core.internal.validation.constraints.SharedResourceNotInWorkspace" could not find target EMF type "Property."
 
-!ENTRY org.eclipse.emf.validation 2 70 2019-11-28 21:49:19.306
+!ENTRY org.eclipse.emf.validation 2 70 2019-11-28 22:20:46.895
 !MESSAGE Constraint "com.tibco.amf.design.sr.data.ldap.credential.store.access" could not find target EMF type "com.tibco.amf.model.sharedresource.ldap.LdapConnection."
 
-!ENTRY org.eclipse.emf.validation 2 70 2019-11-28 21:49:19.383
+!ENTRY org.eclipse.emf.validation 2 70 2019-11-28 22:20:47.015
 !MESSAGE Constraint "com.tibco.amf.sca.model.validation.com.tibco.amf.daa.requirement" could not find target EMF type "Requirements."
 
-!ENTRY org.eclipse.emf.validation 2 70 2019-11-28 21:49:19.389
+!ENTRY org.eclipse.emf.validation 2 70 2019-11-28 22:20:47.017
 !MESSAGE Constraint "com.tibco.amf.sca.model.validation.conversational.policy.constraint" could not find target EMF type "org.eclipse.emf.ecore.EObject."
 
-!ENTRY org.eclipse.emf.validation 2 70 2019-11-28 21:49:19.563
+!ENTRY org.eclipse.emf.validation 2 70 2019-11-28 22:20:47.159
 !MESSAGE Constraint "com.tibco.trinity.ssl.editor.invalid.remote.host.constraint" could not find target EMF type "SSLClientConfiguration."
 
-!ENTRY org.eclipse.bpel.validator 1 0 2019-11-28 21:49:19.749
-!MESSAGE Validator Startup 263ms
+!ENTRY org.eclipse.bpel.validator 1 0 2019-11-28 22:20:52.069
+!MESSAGE Validator Startup 193ms
 
-!ENTRY com.tibco.xpd.resources 2 0 2019-11-28 21:50:20.537
+!ENTRY com.tibco.xpd.resources 4 0 2019-11-28 22:20:53.761
+!MESSAGE com.tibco.xpd.processeditor.fragments.BaseXpdlTemplatesContributor.createHiddenProject(BaseXpdlTemplatesContributor.java:245) Cannot create temporary project
+
+!ENTRY com.tibco.xpd.resources 4 0 2019-11-28 22:20:54.595
+!MESSAGE Unexpected exception
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/.tempHidden' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:335)
+	at org.eclipse.core.internal.resources.Project.open(Project.java:1016)
+	at org.eclipse.core.internal.resources.Project.open(Project.java:1102)
+	at com.tibco.xpd.processeditor.fragments.BaseXpdlTemplatesContributor.createFragmentInternals(BaseXpdlTemplatesContributor.java:163)
+	at com.tibco.xpd.processeditor.fragments.BaseXpdlTemplatesContributor.initialize(BaseXpdlTemplatesContributor.java:126)
+	at com.tibco.xpd.fragments.internal.FragmentsManager.super(FragmentsManager.java:1098)
+	at com.tibco.xpd.fragments.internal.FragmentsManager.access$8(FragmentsManager.java:1040)
+	at com.tibco.xpd.fragments.internal.FragmentsManager$5.run(FragmentsManager.java:764)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2019-11-28 22:20:54.596
+!MESSAGE Resource '/.tempHidden' does not exist.
+
+!ENTRY com.tibco.xpd.resources 2 0 2019-11-28 22:21:45.058
 !MESSAGE Wsdl Application 3 2019-10-04 12-33-17.wsdl is not marked as derived but appears to be Studio-generated
 
-!ENTRY com.tibco.xpd.resources 4 0 2019-11-28 21:50:23.086
-!MESSAGE [88] The statement was aborted because it would have caused a duplicate key value in a unique or primary key constraint or unique index identified by 'SQL191128214914480' defined on 'COM_TIBCO_XPD_WSDL_WSDLINDEXER'.
-!STACK 0
-java.sql.BatchUpdateException: The statement was aborted because it would have caused a duplicate key value in a unique or primary key constraint or unique index identified by 'SQL191128214914480' defined on 'COM_TIBCO_XPD_WSDL_WSDLINDEXER'.
-	at org.apache.derby.impl.jdbc.EmbedStatement.executeLargeBatch(Unknown Source)
-	at org.apache.derby.impl.jdbc.EmbedStatement.executeBatch(Unknown Source)
-	at com.tibco.xpd.resources.internal.db.impl.derby.ResourceDbDerby.doUpdate(ResourceDbDerby.java:1442)
-	at com.tibco.xpd.resources.internal.db.impl.derby.ResourceDbDerby.access$10(ResourceDbDerby.java:1378)
-	at com.tibco.xpd.resources.internal.db.impl.derby.ResourceDbDerby$9.run(ResourceDbDerby.java:1371)
-	at com.tibco.xpd.resources.internal.db.impl.derby.ResourceDbDerby$9.run(ResourceDbDerby.java:1)
-	at com.tibco.xpd.resources.internal.db.impl.derby.UninterruptibleJob.start(UninterruptibleJob.java:24)
-	at com.tibco.xpd.resources.internal.db.impl.derby.ResourceDbDerby.update(ResourceDbDerby.java:1375)
-	at com.tibco.xpd.resources.internal.indexer.IndexerServiceImpl.update(IndexerServiceImpl.java:855)
-	at com.tibco.xpd.resources.internal.indexer.IndexerServiceImpl.updateIndex(IndexerServiceImpl.java:748)
-	at com.tibco.xpd.resources.internal.indexer.IndexerServiceImpl.index(IndexerServiceImpl.java:530)
-	at com.tibco.xpd.resources.internal.indexer.IndexerServiceImpl.index(IndexerServiceImpl.java:503)
-	at com.tibco.xpd.validation.explicit.Validator.doValidate(Validator.java:213)
-	at com.tibco.xpd.validation.explicit.Validator.indexAndValidate(Validator.java:177)
-	at com.tibco.xpd.validation.AbstractValidatingIncrementalProjectBuilder.validateFilesAffectedByBuild(AbstractValidatingIncrementalProjectBuilder.java:170)
-	at com.tibco.xpd.validation.AbstractValidatingIncrementalProjectBuilder.build(AbstractValidatingIncrementalProjectBuilder.java:73)
-	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
-	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
-	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
-	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
-	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
-	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:142)
-	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:232)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
-Caused by: org.apache.derby.shared.common.error.DerbySQLIntegrityConstraintViolationException: The statement was aborted because it would have caused a duplicate key value in a unique or primary key constraint or unique index identified by 'SQL191128214914480' defined on 'COM_TIBCO_XPD_WSDL_WSDLINDEXER'.
-	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
-	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
-	at org.apache.derby.impl.jdbc.TransactionResourceImpl.wrapInSQLException(Unknown Source)
-	at org.apache.derby.impl.jdbc.TransactionResourceImpl.handleException(Unknown Source)
-	at org.apache.derby.impl.jdbc.EmbedConnection.handleException(Unknown Source)
-	at org.apache.derby.impl.jdbc.ConnectionChild.handleException(Unknown Source)
-	at org.apache.derby.impl.jdbc.EmbedStatement.executeStatement(Unknown Source)
-	at org.apache.derby.impl.jdbc.EmbedPreparedStatement.executeBatchElement(Unknown Source)
-	... 28 more
-Caused by: ERROR 23505: The statement was aborted because it would have caused a duplicate key value in a unique or primary key constraint or unique index identified by 'SQL191128214914480' defined on 'COM_TIBCO_XPD_WSDL_WSDLINDEXER'.
-	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
-	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
-	at org.apache.derby.impl.sql.execute.IndexChanger.insertAndCheckDups(Unknown Source)
-	at org.apache.derby.impl.sql.execute.IndexChanger.doInsert(Unknown Source)
-	at org.apache.derby.impl.sql.execute.IndexChanger.insert(Unknown Source)
-	at org.apache.derby.impl.sql.execute.IndexSetChanger.insert(Unknown Source)
-	at org.apache.derby.impl.sql.execute.RowChangerImpl.insertRow(Unknown Source)
-	at org.apache.derby.impl.sql.execute.InsertResultSet.normalInsertCore(Unknown Source)
-	at org.apache.derby.impl.sql.execute.InsertResultSet.open(Unknown Source)
-	at org.apache.derby.impl.sql.GenericPreparedStatement.executeStmt(Unknown Source)
-	at org.apache.derby.impl.sql.GenericPreparedStatement.execute(Unknown Source)
-	... 30 more
-!SUBENTRY 1 com.tibco.xpd.resources 4 0 2019-11-28 21:50:23.087
-!MESSAGE platform:/resource/Application3/Generated%20Services/Application%203%202019-10-04%2012-33-17.wsdl#/
-!SUBENTRY 1 com.tibco.xpd.resources 4 0 2019-11-28 21:50:23.087
-!MESSAGE platform:/resource/Application3/Generated%20Services/Application%203%202019-10-04%2012-33-17.wsdl#//@ePortTypes.0/@eOperations.0
-!SUBENTRY 1 com.tibco.xpd.resources 4 0 2019-11-28 21:50:23.087
-!MESSAGE platform:/resource/Application3/Generated%20Services/Application%203%202019-10-04%2012-33-17.wsdl#TIMESTAMP
-!SUBENTRY 1 com.tibco.xpd.resources 4 0 2019-11-28 21:50:23.088
-!MESSAGE platform:/resource/Application3/Generated%20Services/Application%203%202019-10-04%2012-33-17.wsdl#//@eMessages.0
-!SUBENTRY 1 com.tibco.xpd.resources 4 0 2019-11-28 21:50:23.088
-!MESSAGE platform:/resource/Application3/Generated%20Services/Application%203%202019-10-04%2012-33-17.wsdl#//@ePortTypes.0
-
-!ENTRY org.eclipse.datatools.connectivity 4 10001 2019-11-28 21:50:26.346
-!MESSAGE C:\DevelopBS-git-test2\BusinessStudio430ahf0bshf0-20190910b\.metadata\.plugins\org.eclipse.birt.report.data.oda.jdbc.dbprofile.sampledb\db\META-INF\MANIFEST.MF (The system cannot find the path specified)
+!ENTRY org.eclipse.datatools.connectivity 4 10001 2019-11-28 22:21:48.284
+!MESSAGE C:\DevelopBS-git-test1\BusinessStudio430ahf0bshf0-20190910b\.metadata\.plugins\org.eclipse.birt.report.data.oda.jdbc.dbprofile.sampledb\db\META-INF\MANIFEST.MF (The system cannot find the path specified)
 !STACK 1
-org.eclipse.core.runtime.CoreException: C:\DevelopBS-git-test2\BusinessStudio430ahf0bshf0-20190910b\.metadata\.plugins\org.eclipse.birt.report.data.oda.jdbc.dbprofile.sampledb\db\META-INF\MANIFEST.MF (The system cannot find the path specified)
+org.eclipse.core.runtime.CoreException: C:\DevelopBS-git-test1\BusinessStudio430ahf0bshf0-20190910b\.metadata\.plugins\org.eclipse.birt.report.data.oda.jdbc.dbprofile.sampledb\db\META-INF\MANIFEST.MF (The system cannot find the path specified)
 	at org.eclipse.birt.report.data.oda.jdbc.dbprofile.sampledb.internal.impl.SampleDbFactory.setInitializationData(SampleDbFactory.java:104)
 	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:251)
 	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
@@ -165,7 +118,7 @@ org.eclipse.core.runtime.CoreException: C:\DevelopBS-git-test2\BusinessStudio430
 	at org.eclipse.datatools.sqltools.core.EditorCorePlugin.access$0(EditorCorePlugin.java:68)
 	at org.eclipse.datatools.sqltools.core.EditorCorePlugin$1.configurationLoaded(EditorCorePlugin.java:61)
 	at org.eclipse.datatools.sqltools.internal.core.SQLDevToolsConfigRegistryImpl$2.run(SQLDevToolsConfigRegistryImpl.java:235)
-Caused by: java.io.FileNotFoundException: C:\DevelopBS-git-test2\BusinessStudio430ahf0bshf0-20190910b\.metadata\.plugins\org.eclipse.birt.report.data.oda.jdbc.dbprofile.sampledb\db\META-INF\MANIFEST.MF (The system cannot find the path specified)
+Caused by: java.io.FileNotFoundException: C:\DevelopBS-git-test1\BusinessStudio430ahf0bshf0-20190910b\.metadata\.plugins\org.eclipse.birt.report.data.oda.jdbc.dbprofile.sampledb\db\META-INF\MANIFEST.MF (The system cannot find the path specified)
 	at java.io.FileOutputStream.open0(Native Method)
 	at java.io.FileOutputStream.open(FileOutputStream.java:270)
 	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
@@ -173,10 +126,10 @@ Caused by: java.io.FileNotFoundException: C:\DevelopBS-git-test2\BusinessStudio4
 	at org.eclipse.birt.report.data.oda.jdbc.dbprofile.sampledb.internal.impl.SampleDbFactory.initSampleDb(SampleDbFactory.java:187)
 	at org.eclipse.birt.report.data.oda.jdbc.dbprofile.sampledb.internal.impl.SampleDbFactory.setInitializationData(SampleDbFactory.java:88)
 	... 12 more
-!SUBENTRY 1 org.eclipse.birt.report.data.oda.jdbc.dbprofile.sampledb 4 0 2019-11-28 21:50:26.347
-!MESSAGE C:\DevelopBS-git-test2\BusinessStudio430ahf0bshf0-20190910b\.metadata\.plugins\org.eclipse.birt.report.data.oda.jdbc.dbprofile.sampledb\db\META-INF\MANIFEST.MF (The system cannot find the path specified)
+!SUBENTRY 1 org.eclipse.birt.report.data.oda.jdbc.dbprofile.sampledb 4 0 2019-11-28 22:21:48.284
+!MESSAGE C:\DevelopBS-git-test1\BusinessStudio430ahf0bshf0-20190910b\.metadata\.plugins\org.eclipse.birt.report.data.oda.jdbc.dbprofile.sampledb\db\META-INF\MANIFEST.MF (The system cannot find the path specified)
 !STACK 0
-java.io.FileNotFoundException: C:\DevelopBS-git-test2\BusinessStudio430ahf0bshf0-20190910b\.metadata\.plugins\org.eclipse.birt.report.data.oda.jdbc.dbprofile.sampledb\db\META-INF\MANIFEST.MF (The system cannot find the path specified)
+java.io.FileNotFoundException: C:\DevelopBS-git-test1\BusinessStudio430ahf0bshf0-20190910b\.metadata\.plugins\org.eclipse.birt.report.data.oda.jdbc.dbprofile.sampledb\db\META-INF\MANIFEST.MF (The system cannot find the path specified)
 	at java.io.FileOutputStream.open0(Native Method)
 	at java.io.FileOutputStream.open(FileOutputStream.java:270)
 	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
@@ -196,69 +149,5 @@ java.io.FileNotFoundException: C:\DevelopBS-git-test2\BusinessStudio430ahf0bshf0
 	at org.eclipse.datatools.sqltools.core.EditorCorePlugin$1.configurationLoaded(EditorCorePlugin.java:61)
 	at org.eclipse.datatools.sqltools.internal.core.SQLDevToolsConfigRegistryImpl$2.run(SQLDevToolsConfigRegistryImpl.java:235)
 
-!ENTRY com.tibco.xpd.analyst.resources.xpdl2 2 0 2019-11-28 21:52:05.805
-!MESSAGE WSDL port operation namespace for activity 'InvokeStartApplicationProcessing' could not be found.
-!STACK 0
-java.lang.AssertionError: WSDL port operation namespace for activity 'InvokeStartApplicationProcessing' could not be found.
-	at com.tibco.xpd.analyst.resources.xpdl2.utils.ActivityWebServiceReference.getPortTypeTargetNameSpace(ActivityWebServiceReference.java:571)
-	at com.tibco.xpd.analyst.resources.xpdl2.utils.ActivityWebServiceReference.calculatePortTypeNamespace(ActivityWebServiceReference.java:433)
-	at com.tibco.xpd.analyst.resources.xpdl2.utils.ActivityWebServiceReference.createActivityWebServiceReference(ActivityWebServiceReference.java:229)
-	at com.tibco.bx.validation.rules.activity.ParticipantForSamePortTypeRule.checkRef(ParticipantForSamePortTypeRule.java:160)
-	at com.tibco.bx.validation.rules.activity.ParticipantForSamePortTypeRule.checkActivityPortTypeReferences(ParticipantForSamePortTypeRule.java:128)
-	at com.tibco.bx.validation.rules.activity.ParticipantForSamePortTypeRule.validate(ParticipantForSamePortTypeRule.java:79)
-	at com.tibco.xpd.validation.xpdl2.rules.PackageValidationRule.validate(PackageValidationRule.java:42)
-	at com.tibco.xpd.validation.xpdl2.rules.Xpdl2ValidationRule.validate(Xpdl2ValidationRule.java:58)
-	at com.tibco.xpd.validation.internal.engine.Provider.validate(Provider.java:167)
-	at com.tibco.xpd.validation.internal.engine.ValidationEngine.validateItem(ValidationEngine.java:342)
-	at com.tibco.xpd.validation.internal.engine.ValidationEngine.validate(ValidationEngine.java:269)
-	at com.tibco.xpd.validation.explicit.Validator.doValidate(Validator.java:219)
-	at com.tibco.xpd.validation.explicit.Validator.indexAndValidate(Validator.java:177)
-	at com.tibco.xpd.validation.AbstractValidatingIncrementalProjectBuilder.validateFilesAffectedByBuild(AbstractValidatingIncrementalProjectBuilder.java:170)
-	at com.tibco.xpd.validation.AbstractValidatingIncrementalProjectBuilder.build(AbstractValidatingIncrementalProjectBuilder.java:73)
-	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
-	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
-	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
-	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
-	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
-	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:142)
-	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:232)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
-
-!ENTRY com.tibco.xpd.analyst.resources.xpdl2 2 0 2019-11-28 21:52:05.807
-!MESSAGE WSDL port operation namespace for activity 'InvokeStartApplicationProcessing' could not be found.
-!STACK 0
-java.lang.AssertionError: WSDL port operation namespace for activity 'InvokeStartApplicationProcessing' could not be found.
-	at com.tibco.xpd.analyst.resources.xpdl2.utils.ActivityWebServiceReference.getPortTypeTargetNameSpace(ActivityWebServiceReference.java:571)
-	at com.tibco.xpd.analyst.resources.xpdl2.utils.ActivityWebServiceReference.calculatePortTypeNamespace(ActivityWebServiceReference.java:433)
-	at com.tibco.xpd.analyst.resources.xpdl2.utils.ActivityWebServiceReference.createActivityWebServiceReference(ActivityWebServiceReference.java:229)
-	at com.tibco.bx.validation.rules.activity.ParticipantForSamePortTypeRule.checkRef(ParticipantForSamePortTypeRule.java:160)
-	at com.tibco.bx.validation.rules.activity.ParticipantForSamePortTypeRule.checkActivityPortTypeReferences(ParticipantForSamePortTypeRule.java:128)
-	at com.tibco.bx.validation.rules.activity.ParticipantForSamePortTypeRule.validate(ParticipantForSamePortTypeRule.java:88)
-	at com.tibco.xpd.validation.xpdl2.rules.PackageValidationRule.validate(PackageValidationRule.java:42)
-	at com.tibco.xpd.validation.xpdl2.rules.Xpdl2ValidationRule.validate(Xpdl2ValidationRule.java:58)
-	at com.tibco.xpd.validation.internal.engine.Provider.validate(Provider.java:167)
-	at com.tibco.xpd.validation.internal.engine.ValidationEngine.validateItem(ValidationEngine.java:342)
-	at com.tibco.xpd.validation.internal.engine.ValidationEngine.validate(ValidationEngine.java:269)
-	at com.tibco.xpd.validation.explicit.Validator.doValidate(Validator.java:219)
-	at com.tibco.xpd.validation.explicit.Validator.indexAndValidate(Validator.java:177)
-	at com.tibco.xpd.validation.AbstractValidatingIncrementalProjectBuilder.validateFilesAffectedByBuild(AbstractValidatingIncrementalProjectBuilder.java:170)
-	at com.tibco.xpd.validation.AbstractValidatingIncrementalProjectBuilder.build(AbstractValidatingIncrementalProjectBuilder.java:73)
-	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
-	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
-	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
-	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
-	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
-	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:142)
-	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:232)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
-
-!ENTRY com.tibco.xpd.resources 1 0 2019-11-28 21:52:30.170
+!ENTRY com.tibco.xpd.resources 1 0 2019-11-28 22:22:37.382
 !MESSAGE Derby database closed.
