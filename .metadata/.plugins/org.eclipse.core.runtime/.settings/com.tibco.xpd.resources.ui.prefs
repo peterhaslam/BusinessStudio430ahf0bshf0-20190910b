@@ -1,0 +1,5 @@
+CATEGORY_DEFAULT_PREFIX_STORE_KEYcom.tibco.amf.activities.categories.soaDevelopment=NOT_ENABLED
+CATEGORY_DEFAULT_PREFIX_STORE_KEYcom.tibco.amf.activities.categories.soaPlatformExtension=NOT_ENABLED
+CATEGORY_DEFAULT_PREFIX_STORE_KEYcom.tibco.xpd.analysis=ENABLED
+CATEGORY_DEFAULT_PREFIX_STORE_KEYcom.tibco.xpd.solutiondesign=ENABLED
+eclipse.preferences.version=1

@@ -1,0 +1,86 @@
+!SESSION 2019-11-28 17:13:14.346 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_202
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_AU
+Framework arguments:  -showlocation
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -showlocation
+
+!ENTRY org.eclipse.ui 2 0 2019-11-28 17:13:47.302
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2019-11-28 17:13:47.302
+!MESSAGE Commands should really have a category: plug-in='com.tibco.xpd.openspacegwtgadget.integration', id='com.tibco.xpd.openspacegwtgadget.integration.openspaceGadgetDevDropDownButtonCmd', categoryId='com.tibco.xpd.openspacegwtgadget.integration.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2019-11-28 17:13:47.687
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2019-11-28 17:13:47.687
+!MESSAGE Commands should really have a category: plug-in='com.tibco.xpd.openspacegwtgadget.integration', id='com.tibco.xpd.openspacegwtgadget.integration.openspaceGadgetDevDropDownButtonCmd', categoryId='com.tibco.xpd.openspacegwtgadget.integration.commandCategory'
+
+!ENTRY org.eclipse.jface 2 0 2019-11-28 17:13:49.199
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-11-28 17:13:49.199
+!MESSAGE A conflict occurred for ALT+SHIFT+X M:
+Binding(ALT+SHIFT+X M,
+	ParameterizedCommand(Command(org.eclipse.m2e.core.pomFileAction.run,Run Maven Build,
+		Run Maven Build,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@765ccc7a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+X M,
+	ParameterizedCommand(Command(com.tibco.xpd.simulation.ui.SimulationShortcut.run,Run Simulation,
+		Run Simulation,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@68ad030d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.emf.validation 2 70 2019-11-28 17:13:57.377
+!MESSAGE Constraint "com.tibco.amf.binding.common.design.ui.com.tibco.amx.bt.jmsbt.design.reference.bothPoliciesAddedForSOAP" could not find target EMF type "SOAPBinding."
+
+!ENTRY org.eclipse.emf.validation 2 70 2019-11-28 17:13:57.378
+!MESSAGE Constraint "com.tibco.amf.binding.common.design.ui.com.tibco.amx.bt.jmsbt.design.reference.jmsALOwithVirtualizationOrSecureVirtualizatioPoliciesAddedForSOAP" could not find target EMF type "SOAPBinding."
+
+!ENTRY org.eclipse.emf.validation 2 70 2019-11-28 17:13:57.379
+!MESSAGE Constraint "com.tibco.amf.binding.common.design.ui.com.tibco.amx.bt.jmsbt.design.reference.txnotapplicabletosoaphttp" could not find target EMF type "SOAPBinding."
+
+!ENTRY org.eclipse.emf.validation 2 70 2019-11-28 17:13:57.381
+!MESSAGE Constraint "com.tibco.amf.binding.common.design.ui.com.tibco.amx.bt.jmsbt.design.reference.alonotapplicabletosoaphttp" could not find target EMF type "SOAPBinding."
+
+!ENTRY org.eclipse.emf.validation 2 70 2019-11-28 17:13:57.382
+!MESSAGE Constraint "com.tibco.amf.binding.common.design.ui.com.tibco.amx.bt.jmsbt.design.reference.bothPoliciesAddedJMSALOForSOAP" could not find target EMF type "SOAPBinding."
+
+!ENTRY org.eclipse.emf.validation 2 70 2019-11-28 17:13:57.781
+!MESSAGE Constraint "com.tibco.amf.binding.soap.ui.WSRMNeedsWSAddressingConstraint" could not find target EMF type "org.eclipse.emf.ecore.EObject."
+
+!ENTRY org.eclipse.emf.validation 2 70 2019-11-28 17:13:57.782
+!MESSAGE Constraint "com.tibco.amf.binding.soap.ui.WSRMNeedsWSAddressingNonAnonymousConstraint" could not find target EMF type "org.eclipse.emf.ecore.EObject."
+
+!ENTRY org.eclipse.emf.validation 2 70 2019-11-28 17:13:57.831
+!MESSAGE Constraint "com.tibco.amf.design.implementationtype.webapp.featureNotConfiguredConstraint" could not find target EMF type "Component."
+
+!ENTRY org.eclipse.emf.validation 2 70 2019-11-28 17:13:57.844
+!MESSAGE Constraint "com.tibco.amf.design.sr.core.internal.validation.constraints.SharedResourceNotInWorkspace" could not find target EMF type "Property."
+
+!ENTRY org.eclipse.emf.validation 2 70 2019-11-28 17:13:57.853
+!MESSAGE Constraint "com.tibco.amf.design.sr.data.ldap.credential.store.access" could not find target EMF type "com.tibco.amf.model.sharedresource.ldap.LdapConnection."
+
+!ENTRY org.eclipse.emf.validation 2 70 2019-11-28 17:13:57.939
+!MESSAGE Constraint "com.tibco.amf.sca.model.validation.com.tibco.amf.daa.requirement" could not find target EMF type "Requirements."
+
+!ENTRY org.eclipse.emf.validation 2 70 2019-11-28 17:13:57.943
+!MESSAGE Constraint "com.tibco.amf.sca.model.validation.conversational.policy.constraint" could not find target EMF type "org.eclipse.emf.ecore.EObject."
+
+!ENTRY org.eclipse.emf.validation 2 70 2019-11-28 17:13:58.084
+!MESSAGE Constraint "com.tibco.trinity.ssl.editor.invalid.remote.host.constraint" could not find target EMF type "SSLClientConfiguration."
+
+!ENTRY org.eclipse.bpel.validator 1 0 2019-11-28 17:13:58.299
+!MESSAGE Validator Startup 182ms
+
+!ENTRY com.tibco.xpd.resources 2 0 2019-11-28 17:16:27.133
+!MESSAGE Wsdl Application 3 2019-10-04 12-33-17.wsdl is not marked as derived but appears to be Studio-generated
+
+!ENTRY com.tibco.xpd.resources 1 0 2019-11-28 17:17:08.270
+!MESSAGE Derby database closed.
