@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<wsdl:definitions xmlns:ns="http://www.tibco.com/bs3.0/_tvtUAOZPEem22OFoS-9RYQ" xmlns:tibex="http://www.tibco.com/bs3.2/extensions" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Application3" targetNamespace="http://www.tibco.com/bs3.0/_tvtUAOZPEem22OFoS-9RYQ" tibex:XPDL="Application 3 2019-10-04 12-33-17.xpdl">
+  <wsdl:types>
+    <xsd:schema xmlns="http://www.tibco.com/bs3.0/_tvtUAOZPEem22OFoS-9RYQ" targetNamespace="http://www.tibco.com/bs3.0/_tvtUAOZPEem22OFoS-9RYQ"/>
+  </wsdl:types>
+  <wsdl:message name="ApplicationProcessing1_StartApplicationProcessingUpdate2_INPUT"/>
+  <wsdl:portType name="ApplicationProcessing1" tibex:FlowContainer="C6D785E33C244721A1DFB98BB2926BD3">
+    <wsdl:documentation>
+      <DocumentationElement Documentation="" DocumentationUrl="http://win2k12r2vm02/TIBCONimbus/CtrlWebISAPI.dll/?__id=webDiagram.show&amp;map=0%3A4707CA3A452340C68CA0BE625E16DC55&amp;dgm=C6D785E33C244721A1DFB98BB2926BD3"/>
+    </wsdl:documentation>
+    <wsdl:operation name="StartApplicationProcessingUpdate2">
+      <wsdl:input message="ns:ApplicationProcessing1_StartApplicationProcessingUpdate2_INPUT" tibex:Event="_tvvJMOZPEem22OFoS-9RYQ"/>
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config:ProjectConfig xmlns:config="http://www.tibco.com/XPD/projectConfig">
+  <projectDetails id="com.example.application3">
+    <globalDestinations>
+      <destination type="BPM"/>
+    </globalDestinations>
+  </projectDetails>
+  <config:assetTypes id="com.tibco.xpd.asset.businessAssetsV3"/>
+  <config:assetTypes id="com.tibco.xpd.asset.form" version="9"/>
+  <config:assetTypes id="com.tibco.xpd.asset.businessProcess" version="22"/>
+  <config:specialFolders>
+    <config:folder id="_bViewOZPEemnap_vpn8CQA" kind="forms" location="Forms"/>
+    <config:folder id="_bWYMQOZPEemnap_vpn8CQA" kind="formsMobile" location=".forms/mobile"/>
+    <config:folder id="_bXwFQOZPEemnap_vpn8CQA" kind="processes" location="Process Packages"/>
+    <config:folder id="_bnZq0OZPEemnap_vpn8CQA" kind="presentation" location="Presentation Resources"/>
+    <config:folder id="_4oLSYOZPEem22OFoS-9RYQ" kind="wsdl" location="Generated Services" generated="bpm.xpdl2wsdl"/>
+  </config:specialFolders>
+</config:ProjectConfig>

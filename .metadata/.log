@@ -151,3 +151,241 @@ java.io.FileNotFoundException: C:\DevelopBS-git-test1\BusinessStudio430ahf0bshf0
 
 !ENTRY com.tibco.xpd.resources 1 0 2019-11-28 22:22:37.382
 !MESSAGE Derby database closed.
+!SESSION 2019-11-28 22:28:19.048 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_202
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_AU
+Framework arguments:  -showlocation
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -showlocation
+
+!ENTRY org.eclipse.ui 2 0 2019-11-28 22:28:26.420
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2019-11-28 22:28:26.421
+!MESSAGE Commands should really have a category: plug-in='com.tibco.xpd.openspacegwtgadget.integration', id='com.tibco.xpd.openspacegwtgadget.integration.openspaceGadgetDevDropDownButtonCmd', categoryId='com.tibco.xpd.openspacegwtgadget.integration.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2019-11-28 22:28:26.975
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2019-11-28 22:28:26.975
+!MESSAGE Commands should really have a category: plug-in='com.tibco.xpd.openspacegwtgadget.integration', id='com.tibco.xpd.openspacegwtgadget.integration.openspaceGadgetDevDropDownButtonCmd', categoryId='com.tibco.xpd.openspacegwtgadget.integration.commandCategory'
+
+!ENTRY org.eclipse.jface 2 0 2019-11-28 22:28:28.690
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-11-28 22:28:28.690
+!MESSAGE A conflict occurred for ALT+SHIFT+X M:
+Binding(ALT+SHIFT+X M,
+	ParameterizedCommand(Command(org.eclipse.m2e.core.pomFileAction.run,Run Maven Build,
+		Run Maven Build,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@727eae52,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+X M,
+	ParameterizedCommand(Command(com.tibco.xpd.simulation.ui.SimulationShortcut.run,Run Simulation,
+		Run Simulation,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@237bdd46,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.core.resources 4 568 2019-11-28 22:28:48.854
+!MESSAGE Could not write metadata for '/.com.tibco.bx.launch'.
+!STACK 0
+java.io.FileNotFoundException: C:\DevelopBS-git-test2\BusinessStudio430ahf0bshf0-20190910b\.metadata\.plugins\org.eclipse.core.resources\.projects\.com.tibco.bx.launch\.markers.snap (The system cannot find the path specified)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:133)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1768)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1852)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1224)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1165)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:52)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.bpel.validator 1 0 2019-11-28 22:28:53.609
+!MESSAGE Validator Startup 50ms
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-11-28 22:30:31.065
+!MESSAGE Problems saving workspace
+
+!ENTRY org.eclipse.ui.ide 4 1 2019-11-28 22:30:31.066
+!MESSAGE Problems occurred while trying to save the state of the workbench.
+!SUBENTRY 1 org.eclipse.core.resources 4 568 2019-11-28 22:30:31.066
+!MESSAGE Could not write metadata for '/.com.tibco.bx.launch'.
+!STACK 0
+java.io.FileNotFoundException: C:\DevelopBS-git-test2\BusinessStudio430ahf0bshf0-20190910b\.metadata\.plugins\org.eclipse.core.resources\.projects\.com.tibco.bx.launch\.markers (The system cannot find the path specified)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162)
+	at org.eclipse.core.internal.localstore.SafeFileOutputStream.<init>(SafeFileOutputStream.java:51)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSave(SaveManager.java:1657)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSave(SaveManager.java:1739)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1199)
+	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2283)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$5.run(IDEWorkbenchAdvisor.java:526)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+
+!ENTRY com.tibco.xpd.resources 1 0 2019-11-28 22:30:32.554
+!MESSAGE Derby database closed.
+!SESSION 2019-11-28 22:31:55.587 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_202
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_AU
+Framework arguments:  -showlocation
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -showlocation
+
+!ENTRY org.eclipse.ui 2 0 2019-11-28 22:32:00.451
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2019-11-28 22:32:00.451
+!MESSAGE Commands should really have a category: plug-in='com.tibco.xpd.openspacegwtgadget.integration', id='com.tibco.xpd.openspacegwtgadget.integration.openspaceGadgetDevDropDownButtonCmd', categoryId='com.tibco.xpd.openspacegwtgadget.integration.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2019-11-28 22:32:00.805
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2019-11-28 22:32:00.805
+!MESSAGE Commands should really have a category: plug-in='com.tibco.xpd.openspacegwtgadget.integration', id='com.tibco.xpd.openspacegwtgadget.integration.openspaceGadgetDevDropDownButtonCmd', categoryId='com.tibco.xpd.openspacegwtgadget.integration.commandCategory'
+
+!ENTRY org.eclipse.jface 2 0 2019-11-28 22:32:02.069
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-11-28 22:32:02.069
+!MESSAGE A conflict occurred for ALT+SHIFT+X M:
+Binding(ALT+SHIFT+X M,
+	ParameterizedCommand(Command(org.eclipse.m2e.core.pomFileAction.run,Run Maven Build,
+		Run Maven Build,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6cbbfe03,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+X M,
+	ParameterizedCommand(Command(com.tibco.xpd.simulation.ui.SimulationShortcut.run,Run Simulation,
+		Run Simulation,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@78b20c7f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.bpel.validator 1 0 2019-11-28 22:32:15.166
+!MESSAGE Validator Startup 25ms
+
+!ENTRY org.eclipse.datatools.connectivity 4 10001 2019-11-28 22:32:41.966
+!MESSAGE C:\DevelopBS-git-test2\BusinessStudio430ahf0bshf0-20190910b\.metadata\.plugins\org.eclipse.birt.report.data.oda.jdbc.dbprofile.sampledb\db\META-INF\MANIFEST.MF (The system cannot find the path specified)
+!STACK 1
+org.eclipse.core.runtime.CoreException: C:\DevelopBS-git-test2\BusinessStudio430ahf0bshf0-20190910b\.metadata\.plugins\org.eclipse.birt.report.data.oda.jdbc.dbprofile.sampledb\db\META-INF\MANIFEST.MF (The system cannot find the path specified)
+	at org.eclipse.birt.report.data.oda.jdbc.dbprofile.sampledb.internal.impl.SampleDbFactory.setInitializationData(SampleDbFactory.java:104)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:251)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at org.eclipse.datatools.connectivity.internal.InternalProfileManager.initializeLocalDatabase(InternalProfileManager.java:1380)
+	at org.eclipse.datatools.connectivity.internal.InternalProfileManager.loadLocalRegisteredDatabases(InternalProfileManager.java:1360)
+	at org.eclipse.datatools.connectivity.internal.InternalProfileManager.loadProfiles(InternalProfileManager.java:1070)
+	at org.eclipse.datatools.connectivity.internal.InternalProfileManager.getProfiles(InternalProfileManager.java:150)
+	at org.eclipse.datatools.connectivity.ProfileManager.getProfiles(ProfileManager.java:48)
+	at org.eclipse.datatools.sqltools.core.profile.ProfileUtil.getProfiles(ProfileUtil.java:1023)
+	at org.eclipse.datatools.sqltools.core.EditorCorePlugin.register(EditorCorePlugin.java:72)
+	at org.eclipse.datatools.sqltools.core.EditorCorePlugin.access$0(EditorCorePlugin.java:68)
+	at org.eclipse.datatools.sqltools.core.EditorCorePlugin$1.configurationLoaded(EditorCorePlugin.java:61)
+	at org.eclipse.datatools.sqltools.internal.core.SQLDevToolsConfigRegistryImpl$2.run(SQLDevToolsConfigRegistryImpl.java:235)
+Caused by: java.io.FileNotFoundException: C:\DevelopBS-git-test2\BusinessStudio430ahf0bshf0-20190910b\.metadata\.plugins\org.eclipse.birt.report.data.oda.jdbc.dbprofile.sampledb\db\META-INF\MANIFEST.MF (The system cannot find the path specified)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162)
+	at org.eclipse.birt.report.data.oda.jdbc.dbprofile.sampledb.internal.impl.SampleDbFactory.initSampleDb(SampleDbFactory.java:187)
+	at org.eclipse.birt.report.data.oda.jdbc.dbprofile.sampledb.internal.impl.SampleDbFactory.setInitializationData(SampleDbFactory.java:88)
+	... 12 more
+!SUBENTRY 1 org.eclipse.birt.report.data.oda.jdbc.dbprofile.sampledb 4 0 2019-11-28 22:32:41.967
+!MESSAGE C:\DevelopBS-git-test2\BusinessStudio430ahf0bshf0-20190910b\.metadata\.plugins\org.eclipse.birt.report.data.oda.jdbc.dbprofile.sampledb\db\META-INF\MANIFEST.MF (The system cannot find the path specified)
+!STACK 0
+java.io.FileNotFoundException: C:\DevelopBS-git-test2\BusinessStudio430ahf0bshf0-20190910b\.metadata\.plugins\org.eclipse.birt.report.data.oda.jdbc.dbprofile.sampledb\db\META-INF\MANIFEST.MF (The system cannot find the path specified)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162)
+	at org.eclipse.birt.report.data.oda.jdbc.dbprofile.sampledb.internal.impl.SampleDbFactory.initSampleDb(SampleDbFactory.java:187)
+	at org.eclipse.birt.report.data.oda.jdbc.dbprofile.sampledb.internal.impl.SampleDbFactory.setInitializationData(SampleDbFactory.java:88)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:251)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at org.eclipse.datatools.connectivity.internal.InternalProfileManager.initializeLocalDatabase(InternalProfileManager.java:1380)
+	at org.eclipse.datatools.connectivity.internal.InternalProfileManager.loadLocalRegisteredDatabases(InternalProfileManager.java:1360)
+	at org.eclipse.datatools.connectivity.internal.InternalProfileManager.loadProfiles(InternalProfileManager.java:1070)
+	at org.eclipse.datatools.connectivity.internal.InternalProfileManager.getProfiles(InternalProfileManager.java:150)
+	at org.eclipse.datatools.connectivity.ProfileManager.getProfiles(ProfileManager.java:48)
+	at org.eclipse.datatools.sqltools.core.profile.ProfileUtil.getProfiles(ProfileUtil.java:1023)
+	at org.eclipse.datatools.sqltools.core.EditorCorePlugin.register(EditorCorePlugin.java:72)
+	at org.eclipse.datatools.sqltools.core.EditorCorePlugin.access$0(EditorCorePlugin.java:68)
+	at org.eclipse.datatools.sqltools.core.EditorCorePlugin$1.configurationLoaded(EditorCorePlugin.java:61)
+	at org.eclipse.datatools.sqltools.internal.core.SQLDevToolsConfigRegistryImpl$2.run(SQLDevToolsConfigRegistryImpl.java:235)
+
+!ENTRY com.tibco.xpd.analyst.resources.xpdl2 2 0 2019-11-28 22:33:04.111
+!MESSAGE WSDL port operation namespace for activity 'InvokeStartApplicationProcessing' could not be found.
+!STACK 0
+java.lang.AssertionError: WSDL port operation namespace for activity 'InvokeStartApplicationProcessing' could not be found.
+	at com.tibco.xpd.analyst.resources.xpdl2.utils.ActivityWebServiceReference.getPortTypeTargetNameSpace(ActivityWebServiceReference.java:571)
+	at com.tibco.xpd.analyst.resources.xpdl2.utils.ActivityWebServiceReference.calculatePortTypeNamespace(ActivityWebServiceReference.java:433)
+	at com.tibco.xpd.analyst.resources.xpdl2.utils.ActivityWebServiceReference.createActivityWebServiceReference(ActivityWebServiceReference.java:229)
+	at com.tibco.bx.validation.rules.activity.ParticipantForSamePortTypeRule.checkRef(ParticipantForSamePortTypeRule.java:160)
+	at com.tibco.bx.validation.rules.activity.ParticipantForSamePortTypeRule.checkActivityPortTypeReferences(ParticipantForSamePortTypeRule.java:128)
+	at com.tibco.bx.validation.rules.activity.ParticipantForSamePortTypeRule.validate(ParticipantForSamePortTypeRule.java:79)
+	at com.tibco.xpd.validation.xpdl2.rules.PackageValidationRule.validate(PackageValidationRule.java:42)
+	at com.tibco.xpd.validation.xpdl2.rules.Xpdl2ValidationRule.validate(Xpdl2ValidationRule.java:58)
+	at com.tibco.xpd.validation.internal.engine.Provider.validate(Provider.java:167)
+	at com.tibco.xpd.validation.internal.engine.ValidationEngine.validateItem(ValidationEngine.java:342)
+	at com.tibco.xpd.validation.internal.engine.ValidationEngine.validate(ValidationEngine.java:269)
+	at com.tibco.xpd.validation.explicit.Validator.doValidate(Validator.java:219)
+	at com.tibco.xpd.validation.explicit.Validator.indexAndValidate(Validator.java:177)
+	at com.tibco.xpd.validation.AbstractValidatingIncrementalProjectBuilder.validateFilesAffectedByBuild(AbstractValidatingIncrementalProjectBuilder.java:170)
+	at com.tibco.xpd.validation.AbstractValidatingIncrementalProjectBuilder.build(AbstractValidatingIncrementalProjectBuilder.java:73)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:142)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:232)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.tibco.xpd.analyst.resources.xpdl2 2 0 2019-11-28 22:33:04.113
+!MESSAGE WSDL port operation namespace for activity 'InvokeStartApplicationProcessing' could not be found.
+!STACK 0
+java.lang.AssertionError: WSDL port operation namespace for activity 'InvokeStartApplicationProcessing' could not be found.
+	at com.tibco.xpd.analyst.resources.xpdl2.utils.ActivityWebServiceReference.getPortTypeTargetNameSpace(ActivityWebServiceReference.java:571)
+	at com.tibco.xpd.analyst.resources.xpdl2.utils.ActivityWebServiceReference.calculatePortTypeNamespace(ActivityWebServiceReference.java:433)
+	at com.tibco.xpd.analyst.resources.xpdl2.utils.ActivityWebServiceReference.createActivityWebServiceReference(ActivityWebServiceReference.java:229)
+	at com.tibco.bx.validation.rules.activity.ParticipantForSamePortTypeRule.checkRef(ParticipantForSamePortTypeRule.java:160)
+	at com.tibco.bx.validation.rules.activity.ParticipantForSamePortTypeRule.checkActivityPortTypeReferences(ParticipantForSamePortTypeRule.java:128)
+	at com.tibco.bx.validation.rules.activity.ParticipantForSamePortTypeRule.validate(ParticipantForSamePortTypeRule.java:88)
+	at com.tibco.xpd.validation.xpdl2.rules.PackageValidationRule.validate(PackageValidationRule.java:42)
+	at com.tibco.xpd.validation.xpdl2.rules.Xpdl2ValidationRule.validate(Xpdl2ValidationRule.java:58)
+	at com.tibco.xpd.validation.internal.engine.Provider.validate(Provider.java:167)
+	at com.tibco.xpd.validation.internal.engine.ValidationEngine.validateItem(ValidationEngine.java:342)
+	at com.tibco.xpd.validation.internal.engine.ValidationEngine.validate(ValidationEngine.java:269)
+	at com.tibco.xpd.validation.explicit.Validator.doValidate(Validator.java:219)
+	at com.tibco.xpd.validation.explicit.Validator.indexAndValidate(Validator.java:177)
+	at com.tibco.xpd.validation.AbstractValidatingIncrementalProjectBuilder.validateFilesAffectedByBuild(AbstractValidatingIncrementalProjectBuilder.java:170)
+	at com.tibco.xpd.validation.AbstractValidatingIncrementalProjectBuilder.build(AbstractValidatingIncrementalProjectBuilder.java:73)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:142)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:232)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY com.tibco.xpd.resources 1 0 2019-11-28 22:33:26.298
+!MESSAGE Derby database closed.
