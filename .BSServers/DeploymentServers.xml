@@ -4,7 +4,7 @@
     <serverConfig>
       <configParameters key="serverUrl" value="http://localhost:8120"/>
       <configParameters key="userName" value="root"/>
-      <configParameters key="userPassword" value="(jE(#ey(-:vU\&amp;)0I5{;>+6;QbI-PB8&quot;j`*b>w0}d)up=Q*\:/N&amp;/r@N7de1#z9="/>
+      <configParameters key="userPassword" value="TAPE1[7m&lt;15&lt;*\'5w*Y L!t!?8gR?x6H9vgh+mMcR^46j((#h$,,=h~4%:$Vq07c"/>
       <configParameters key="httpAuthType" value="false"/>
       <configParameters key="filterUserApps" value="true"/>
       <configParameters key="environmentName" value="BPMEnvironment"/>
